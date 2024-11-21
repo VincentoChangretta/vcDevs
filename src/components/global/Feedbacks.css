@@ -1,0 +1,40 @@
+.feedbacks__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 27px;
+    margin-bottom: 30px;
+}
+
+.feedbacks__card {
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    backdrop-filter: blur(7px);
+    background-color: rgba(255, 255, 255, .1);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.feedbacks__card:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.feedbacks__card h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.feedbacks__card p {
+    font-size: 16px;
+}
+
+@media(max-width: 1000px) {
+    .feedbacks__inner {
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width: 955px) {
+    .feedbacks__card h3 {
+        font-size: 20px;
+    }
+}

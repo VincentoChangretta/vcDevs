@@ -1,0 +1,43 @@
+.input-select {
+    width: 80px;
+    height: 50px;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.input-select__active {
+    position: absolute;
+    inset: 0;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #1a1a1a;
+}
+
+.input-select__list {
+    position: absolute;
+    z-index: 1000;
+    left: -10px;
+    top: calc(100% + 20px);
+    padding: 10px;
+    border-radius: 20px;
+    clip-path: inset(0 0 100% 0);
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.input-select__list.active {
+    clip-path: inset(0 0 0 0);
+}
+
+.input-select__list li {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.input-select__list li:hover {
+    background-color: #d9d9d9;
+}

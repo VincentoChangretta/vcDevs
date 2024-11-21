@@ -1,0 +1,21 @@
+.submit {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.submit::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    top: 50%;
+    right: -50px;
+    translate: 0 -50%;
+    background: url(../src/images/icons/check.svg) center / cover no-repeat;
+    transition: 1s;
+}
+
+.submit.active::before {
+    right: 20px;
+}

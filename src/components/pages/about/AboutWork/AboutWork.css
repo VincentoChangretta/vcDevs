@@ -1,0 +1,14 @@
+.about-work{
+    margin-bottom: 50px;
+    padding-bottom: 0;
+}
+
+.about-work__title{
+    margin-bottom: 25px;
+}
+
+@media(max-width: 450px){
+    .about-work{
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,47 @@
+.global-modal-form-inner {
+    position: fixed;
+    inset: 0;
+    z-index: 9000;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.global-modal-form-inner form {
+    position: relative;
+    padding: 40px;
+}
+
+
+.global-modal-form-inner form .close-modal-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media (max-width: 550px) {
+    .global-modal-form-inner form {
+        padding: 20px 40px 20px 20px;
+    }
+
+    .global-modal-form-inner form h3 {
+        font-size: 30px;
+    }
+
+    .global-modal-form-inner form .input-box {
+        margin-bottom: 15px;
+    }
+
+    .global-modal-form-inner form .privacy-text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 410px) {
+    .global-modal-form-inner form .privacy-text {
+        font-size: 10px;
+    }
+}

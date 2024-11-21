@@ -1,0 +1,27 @@
+.about-top__aside {
+    padding: 20px 0 35px 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 118px 2px rgba(255, 255, 255, 0.10);
+}
+
+.about-top__aside .social {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+
+@media(max-width: 1200px){
+    .about-top aside{
+        max-width: 200px;
+    }
+}
+
+@media(max-width: 1050px) {
+    .about-top__aside {
+        display: none;
+    }
+}
+

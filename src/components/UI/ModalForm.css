@@ -1,0 +1,118 @@
+.modal-form-bg {
+    position: fixed;
+    z-index: 9998;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+
+}
+
+.modal-form {
+    position: relative;
+    max-width: 780px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 20px;
+    color: #1a1a1a;
+    background-color: #fff;
+    -webkit-box-shadow: 15px 12px 38px -1px rgba(34, 60, 80, 0.09);
+    -moz-box-shadow: 15px 12px 38px -1px rgba(34, 60, 80, 0.09);
+    box-shadow: 15px 12px 38px -1px rgba(34, 60, 80, 0.09);
+}
+
+.modal-form article {
+    margin-bottom: 20px;
+}
+
+.modal-form article h2 {
+    max-width: 600px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.modal-form article p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.modal-form .checks {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.modal-form .checks .check {
+    color: #fff;
+    font-size: 15px;
+}
+
+
+.modal-form .price {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.modal-form .time {
+    font-size: 18px;
+}
+
+
+.modal-form__form .btn {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.modal-form .close {
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.hidden-service-id-input {
+    display: none;
+}
+
+.modal-form .privacy-text{
+    font-size: 14px !important;
+}
+
+
+@media (max-width: 620px) {
+    .modal-form{
+        padding: 20px 40px 20px 20px;
+    }
+    .modal-form article h2{
+        font-size: 18px;
+    }
+    .modal-form article p{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .modal-form .checks{
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+    .modal-form .checks .check{
+        font-size: 12px;
+    }
+    .modal-form .privacy-text {
+        font-size: 11px;
+    }
+    .modal-form__form .btn{
+        margin-bottom: 10px;
+    }
+    .modal-form .price{
+        font-size: 20px;
+    }
+    .modal-form .time{
+        font-size: 18px;
+    }
+    .modal-form .input-box{
+        margin-bottom: 10px;
+    }
+}

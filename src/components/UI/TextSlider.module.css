@@ -1,0 +1,146 @@
+.slider-text {
+    position: relative;
+}
+
+
+.slider-text h2 {
+    font-size: 88px;
+    line-height: normal;
+}
+
+.slider-container {
+    margin-top: -15px;
+    height: 113px;
+    overflow: hidden;
+}
+
+.slider-list {
+    position: relative;
+    margin-left: 150px;
+    transition: 1s ease;
+}
+
+.slider-list li {
+    padding: 3px 0;
+    font-size: 88px;
+    font-family: 'Montserrat', san-serif;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.3;
+    transition: .3s ease;
+}
+
+
+.slider-list li.vcDevs {
+    opacity: 1;
+}
+
+.slider-text p {
+    position: absolute;
+    top: 220px;
+    left: 280px;
+    font-size: 20px;
+    opacity: 0;
+    font-weight: 300;
+    visibility: hidden;
+    transition: .5s;
+    white-space: nowrap
+}
+
+.slider-text p.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media(max-width: 1600px) {
+    .slider-text h2 {
+        font-size: 60px;
+    }
+
+    .slider-list li {
+        font-size: 60px;
+    }
+
+    .slider-container {
+        height: 79px;
+    }
+
+    .slider-text p {
+        top: 143px;
+        left: 225px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 1050px) {
+    .slider-list {
+        margin-left: 0;
+    }
+
+    .slider-text p {
+        left: 0 !important;
+    }
+}
+
+@media(max-width: 655px) {
+    .slider-text h2 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .slider-list li {
+        font-size: 50px;
+    }
+
+    .slider-container {
+        height: 67px;
+    }
+
+    .slider-text p {
+        top: 130px;
+        left: 225px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 455px) {
+    .slider-text h2 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .slider-list li {
+        font-size: 40px;
+    }
+
+    .slider-container {
+        height: 55px;
+    }
+
+    .slider-text p {
+        top: 130px;
+        left: 225px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 370px) {
+    .slider-text h2 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .slider-list li {
+        font-size: 35px;
+    }
+
+    .slider-container {
+        height: 49px;
+    }
+
+    .slider-text p {
+        top: 110px;
+        left: 225px;
+        font-size: 14px;
+    }
+}

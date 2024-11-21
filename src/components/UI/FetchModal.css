@@ -1,0 +1,44 @@
+.fetch-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    bottom: 50px;
+    right: -420px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    color: #1a1a1a;
+    background-color: #fff;
+    transition: 1s;
+}
+
+.fetch-modal.active {
+    right: 50px;
+}
+
+.fetch-modal h2 {
+    font-size: 22px;
+}
+
+@media (max-width: 600px) {
+    .fetch-modal {
+        width: 250px;
+        padding: 15px;
+        bottom: 5px;
+    }
+
+    .fetch-modal h2 {
+        font-size: 14px;
+    }
+
+    .fetch-modal p {
+        font-size: 10px;
+    }
+
+    .fetch-modal.active {
+        right: 5px;
+    }
+}

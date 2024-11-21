@@ -1,0 +1,70 @@
+.help-to-choise {
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.help-to-choise__inner h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.help-to-choise__inner p {
+    margin-bottom: 20px;
+}
+
+.help-to-choise__inner .box {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.help-to-choise__inner form {
+    margin-bottom: 30px;
+}
+
+.help-to-choise__input {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.help-to-choise__input button {
+    color: #fff;
+    background-color: #1a1a1a;
+    margin-bottom: 0;
+}
+
+.help-to-choise__input button:hover {
+    background-color: #252525;
+}
+
+
+.help-to-choise .privacy-policy {
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+@media(max-width: 950px) {
+    .help-to-choise {
+        padding: 30px 0;
+    }
+
+    .help-to-choise__inner .privacy-text {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 655px) {
+    .help-to-choise__input button {
+        max-width: 200px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 365px) {
+    .help-to-choise__inner .privacy-text {
+        font-size: 10px;
+    }
+}

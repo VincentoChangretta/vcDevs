@@ -1,0 +1,25 @@
+.top-form{
+    padding: 20px;
+    max-width: 530px;
+    width: 100%;
+    border-radius: 20px;
+    color: #1a1a1a;
+    background-color: #fff;
+    text-align: center;
+}
+
+.top-form h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+ 
+}
+
+.top-form .btn{
+    color: #fff;
+    background-color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.top-form p{
+    font-size: 16px;
+}
